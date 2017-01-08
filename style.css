@@ -1,0 +1,47 @@
+﻿/* Base */
+html { font-size: 70%; }
+body {
+	background: #444;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #222;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+a { text-decoration: none; color: #099; outline: none; } /* perchè il viola stona :P */
+
+img { border: 10px solid #ddd; padding: 1px; background-color: #fff;  }	
+#logo {padding-top:10px; width:200; height:150;}
+#informazioni { font-size: 4em; text-align:center; font-family: "Verdana", Arial, Helvetica, sans-serif;}
+p{ text-align: justify;}
+/* tabella */
+table { margin: 13px 0; border: 1px solid #ddd; border-collapse: collapse; 	 }
+table td { padding: 10px 15px; text-align: center; }
+
+hr { border: 0; height: 1px; background-color: #ddd; color: #ddd; margin: 30px 0 0; } /* era troppo scura */
+/* div contenitore */
+#container {
+	margin: 0 auto;
+	width: 760px;  /* da modificare */
+}
+
+
+/* div body */	
+#body { padding: 20px; background: #222} /* possibile modificare del colore
+
+/* contenuto */
+#content { background-color: #fff; padding: 2px; text-align: left; }
+
+/* Footer */
+#footer { 
+	text-align:justify;
+	padding: 10 20px; 
+	background-color: #222; 
+	height: 13%; 
+	font-size: 0.9em;
+	color: #ccc;
+	margin-top: 0px;
+}	
